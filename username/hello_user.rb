@@ -1,8 +1,8 @@
 def message(first_name, last_name, age)
   if age < 18
-    puts "Привет, #{first_name} #{last_name}. Тебе меньше 18, но начать учиться программированию никогда не рано!"  
+    "Привет, #{first_name} #{last_name}. Тебе меньше 18, но начать учиться программированию никогда не рано!"  
   else
-    puts "Привет, #{first_name} #{last_name}. Самое время заняться делом!"
+    "Привет, #{first_name} #{last_name}. Самое время заняться делом!"
   end
 end
 

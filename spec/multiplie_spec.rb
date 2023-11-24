@@ -9,5 +9,10 @@ RSpec.describe  "Testing multiplie input" do
       right = 3
       
       expect(multiplie(left, right)).to eq(6)
-  end
+    end
+    it "fail multiplie" do
+      left = 2
+      right = 3
+      expect(multiplie(left, right)).to eq(7)
+    end
 end

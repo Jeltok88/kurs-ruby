@@ -1,5 +1,6 @@
 def pokeball(number)
   pokearray = []
+  arraypok = []
   number.times do
     puts "Введите имя покемона: "
     name = gets.chomp
@@ -7,8 +8,9 @@ def pokeball(number)
     puts "Введите цвет покемона: "
     color = gets.chomp
     pokearray = [{name: name, color: color}]
+    arraypok = arraypok + pokearray
   end
-  puts pokearray
+  puts arraypok
 end
 
 puts "Сколько покемонов добавим? Введите число: "
